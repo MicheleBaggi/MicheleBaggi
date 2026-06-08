@@ -12,7 +12,7 @@ I'm **Michele Baggi**, Mathematical Engineering graduate at Politecnico di Milan
 ## 📌 Some interesting projects
 
 - `Numerical Analysis for PDE` : Discontinuous Galerkin (DG) implementation of the non-homogeneous Laplace operator in the `lymph` library for multiphysics simulations. Report + presentation 📄
-- ![Advanced Programming for Scientific Computing 1](https://github.com/MicheleBaggi/Pacs_Challenge_1) & `Advanced Programming for Scientific Computing 2` : Two challenges in high-performance scientific computing with C++.
+- ![Advanced Programming for Scientific Computing 1](https://github.com/MicheleBaggi/Pacs_Challenge_1) & ![Advanced Programming for Scientific Computing 2](https://github.com/MicheleBaggi/Pacs_Challenge_2) : Two challenges in high-performance scientific computing with C++.
 - `Algorithms and Parallel Computing` : Implemented functions and algorithms in C++ and MPI for parallel architectures.
 - `Fluids Labs` : Solved several Fluid Dynamics laboratory problems using computational tools.
 - `Artificial Neural Networks & Deep Learning` : Deep Learning challenges in Python.
