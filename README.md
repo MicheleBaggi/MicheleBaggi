@@ -23,7 +23,7 @@ I'm **Michele Baggi**, Mathematical Engineering graduate at Politecnico di Milan
 ## 💻 Get in touch
 
 - [LinkedIn](https://www.linkedin.com/in/michele-baggi/)
-- michele1.baggi [at] mail [dot] polimi [dot] it
+- michele1.baggi@mail.polimi.it
 
 ## 🚀 Skills
 
