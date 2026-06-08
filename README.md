@@ -48,7 +48,7 @@ I'm **Michele Baggi**, Mathematical Engineering graduate at Politecnico di Milan
 
 - 🏊 13+ years of competitive swimming — national-level, podiums at regional and international meets
 - 🎸 Guitarist in the band *Syntonic* — regular live performer
-- 🌱 Passionate about sustainability, health & wellbeing, and energy systems
+- 🌱 Passionate about sustainability, health & wellbeing, nutrition
 - 🥾 Outdoor activities and a healthy lifestyle
 
 Enjoy my repositories! 🚀
