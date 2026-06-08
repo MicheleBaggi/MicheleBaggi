@@ -40,6 +40,7 @@ I'm **Michele Baggi**, Mathematical Engineering graduate at Politecnico di Milan
 ![Simulink](https://img.shields.io/badge/Simulink-FF6F00?style=for-the-badge&logo=mathworks&logoColor=white)
 ![MPI](https://img.shields.io/badge/MPI-1F6FEB?style=for-the-badge&logo=openmpi&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![FeniCS](https://img.shields.io/badge/FEniCS-FF6F00?style=for-the-badge&logo=python&logoColor=white)
 
 **Areas:** Numerical Analysis · PDEs · FEM / DG methods · Scientific Machine Learning · Deep Learning · PINNs · Sensitivity & Uncertainty Quantification · Statistical Inference · Parallel Computing · Computational Fluid Dynamics · Computational Systems Biology
 
