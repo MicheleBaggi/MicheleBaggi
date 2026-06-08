@@ -16,7 +16,7 @@ I'm **Michele Baggi**, Mathematical Engineering graduate at Politecnico di Milan
 - `Algorithms and Parallel Computing` : Implemented functions and algorithms in C++ and MPI for parallel architectures.
 - `Fluids Labs` : Solved several Fluid Dynamics laboratory problems using computational tools.
 - `Artificial Neural Networks & Deep Learning` : Deep Learning challenges in Python.
-- `Climate Impact Statistical Modeling` : Modeled sea surface temperature rise as a function of natural and anthropogenic factors (linear regression + ANOVA, in R).
+- ![Climate Impact Statistical Modeling](https://github.com/MicheleBaggi/global_temperature_prediction) : Modeled sea surface temperature rise as a function of natural and anthropogenic factors (linear regression + ANOVA, in R).
 - ![Crop Yield Challenge](https://github.com/MicheleBaggi/Yield-Prediction-Models-CSI) : ML models (LSTM, LightGBM, CNN) to predict wheat and maize yields under a high-emissions climate-change scenario, using daily radiation, temperature and precipitation data. Best results with LSTM. Kaggle: The Future Crop Challenge.
 
 
