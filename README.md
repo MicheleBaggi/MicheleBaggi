@@ -18,7 +18,7 @@ I'm **Michele Baggi**, Mathematical Engineering graduate at Politecnico di Milan
 - `Artificial Neural Networks & Deep Learning` : Deep Learning challenges in Python about ![image classification](https://github.com/MicheleBaggi/DeepL-1) and ![semantic segmentation](https://github.com/MicheleBaggi/DeepL-2)
 - ![Climate Impact Statistical Modeling](https://github.com/MicheleBaggi/global_temperature_prediction) : Modeled sea surface temperature rise as a function of natural and anthropogenic factors (linear regression + ANOVA, in R).
 - ![Crop Yield Challenge](https://github.com/MicheleBaggi/Yield-Prediction-Models-CSI) : ML models (LSTM, LightGBM, CNN) to predict wheat and maize yields under a high-emissions climate-change scenario, using daily radiation, temperature and precipitation data. Best results with LSTM. Kaggle: The Future Crop Challenge.
-
+- A reveal.js presentation explaining a published paper, prepared for the course 'Numerical Methods for the Geoscience', ![Fracture networks in geothermal energy + lithium co-production](https://github.com/MicheleBaggi/geothermal-lithium-extraction)
 
 ## 💻 Get in touch
 
