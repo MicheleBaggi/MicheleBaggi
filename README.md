@@ -17,7 +17,7 @@ I'm **Michele Baggi**, Mathematical Engineer from Politecnico di Milano 🇮🇹
 
 Combining real patient data with a mechanistic model of the human colon, toward a **patient-specific digital twin**:
 
-- ⚡ Re-engineered the compartmental model's code infrastructure — now runs **~70× faster**
+- ⚡ Re-engineered the compartmental model's code infrastructure — now runs **~100× faster**
 - 📉 Analyzed **convergence, stability and independence from initial conditions**
 - 🧪 Introduced data-driven modifications to match real data, after exploratory data analysis
 - 🎯 Ran global **sensitivity analysis (Morris & Sobol)** to rank the most influential parameters
