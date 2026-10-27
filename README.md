@@ -1,32 +1,36 @@
 # Hi there 👋
 
-I'm **Michele Baggi**, Mathematical Engineer from Politecnico di Milano 🇮🇹. My work centers on numerical methods, scientific machine learning, and the mathematical modeling of complex systems — turning rigorous theory into tools for real, meaningful problems.
+I'm **Michele Baggi**, and I hold an **MSc in Mathematical Engineering** from Politecnico di Milano 🇮🇹, graduated **110/110**. My work centers on numerical methods, scientific machine learning, and the mathematical modeling of complex systems — turning rigorous theory into tools for real, meaningful problems.
 
 > To me, mathematics is the language of nature, and my passion is putting its power to work on problems that matter, without ever losing the rigour they demand.
 
-🔭 **Currently** finishing my MSc thesis at **INRAE (Paris-Saclay)** 🇫🇷 — building a *patient-specific digital twin of the human gut*, combining a mechanistic model of colonic fermentation with real patient data.
+🎓 **Just graduated** — MSc thesis at **INRAE (Paris-Saclay)** 🇫🇷 on a *patient-specific digital twin of the human gut*.
+
+🌍 **Open to opportunities** — I want to work on something useful and impactful for the world, where scientific computing and modeling make a real difference.
 
 ## 🎓 Education
 
-- **MSc in Mathematical Engineering** (Computational Science and Computational Learning) at Politecnico di Milano 🇮🇹
+- **MSc in Mathematical Engineering** (Computational Science and Computational Learning) at Politecnico di Milano 🇮🇹 — **110/110**, October 2026
 - **BSc in Mathematical Engineering** at Politecnico di Milano 🇮🇹
 - **Erasmus exchange** at the National Technical University of Athens (NTUA) 🇬🇷
-- **MSc thesis** in collaboration with **INRAE Paris-Saclay** 🇫🇷 — mathematical modeling of carbohydrate fermentation in the human colon (computational systems biology)
+- **MSc thesis** in collaboration with **INRAE Paris-Saclay** 🇫🇷 — *Data Integration, Sensitivity Analysis and Inverse Problem Formulation for a Compartmental Colon Model*. Advisor: Prof. Paola F. Antonietti (MOX, Politecnico di Milano); co-advisors: Béatrice Laroche and Lorenzo Sala (MaIAGE, INRAE)
 
 ## 🔬 MSc Thesis — Gut Digital Twin @ INRAE
 
-Combining real patient data with a mechanistic model of the human colon, toward a **patient-specific digital twin**:
+**[Repository](https://github.com/MicheleBaggi/MSc-Thesis)** · [Full thesis](https://github.com/MicheleBaggi/MSc-Thesis/blob/main/docs/Baggi_MSc_Thesis.pdf) · [Executive summary](https://github.com/MicheleBaggi/MSc-Thesis/blob/main/docs/Baggi_MSc_Thesis_Executive_Summary.pdf) · [Defence slides](https://github.com/MicheleBaggi/MSc-Thesis/blob/main/docs/Baggi_MSc_Thesis_Presentation.pdf)
 
-- ⚡ Re-engineered the compartmental model's code infrastructure — now runs **~100× faster**
-- 🧪 Modified the model to match real data, after exploratory data analysis
-- 📉 Analyzed **convergence, stability and independence from initial conditions**
-- 🎯 Ran global **sensitivity analysis (Morris & Sobol)** to rank the most influential parameters
-- 📚 Constrained parameter ranges from **biological reasoning**, validating the model against the literature
-- 🧠 Trained a **neural-network surrogate** over the relevant parameters
-- 🔁 Solved the **inverse problem via MCMC** (Bayesian parameter inference)
+The same diet can trigger very different metabolic responses from one person to another, and the inside of the colon cannot be observed directly. I connected a **mechanistic model of the colon** with **3613 faecal metagenomes**, tuning it sample by sample: a first step towards a per-patient **gut digital twin**.
+
+- ⚡ **Re-implemented** the compartmental model (106 nonlinear ODEs, 6 compartments) from Matlab/Simulink **in Python**, compiled with Numba for a **~7× speed-up**
+- 🧪 Linked the model to **3613 metagenomic samples** (four functional profiles), comparing compositions with the **Aitchison distance**
+- 🎯 Global **sensitivity analysis**: **Morris** screening (30 → 12 factors), then **Sobol'** indices, identifying the 4 catabolic fractions as the key parameters
+- 🧠 Trained a **neural-network surrogate** of the model (R² > 0.998)
+- 🔁 Solved the **inverse problem** with **Bayesian inference** (DEMetropolis(Z) MCMC, PyMC) on **all 3613 samples**, with no failures (2 h 46 min on 64 cores)
+- 📉 The model reproduces each sample **an order of magnitude more closely** than subjects differ from each other
 
 ## 📌 Featured projects
 
+- **[MSc Thesis — Gut Digital Twin](https://github.com/MicheleBaggi/MSc-Thesis)** — data integration, sensitivity analysis and Bayesian inverse problem for a compartmental colon model, applied to 3613 metagenomes. Thesis, executive summary and slides 📄
 - **[Numerical Analysis for PDEs](https://github.com/MicheleBaggi/polydg)** — Discontinuous Galerkin (DG) implementation of the non-homogeneous Laplace operator in the `lymph` library for multiphysics simulations. Report + presentation 📄
 - **Advanced Programming for Scientific Computing** — [Challenge 1](https://github.com/MicheleBaggi/Pacs_Challenge_1) & [Challenge 2](https://github.com/MicheleBaggi/Pacs_Challenge_2): high-performance scientific computing in C++.
 - **Algorithms and Parallel Computing** — functions and algorithms in C++ and MPI for parallel architectures.
@@ -52,13 +56,16 @@ Combining real patient data with a mechanistic model of the human colon, toward 
 ![MPI](https://img.shields.io/badge/MPI-1F6FEB?style=for-the-badge&logo=openmpi&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![FEniCS](https://img.shields.io/badge/FEniCS-FF6F00?style=for-the-badge&logo=python&logoColor=white)
+![SciPy](https://img.shields.io/badge/SciPy-8CAAE6?style=for-the-badge&logo=scipy&logoColor=white)
+![PyMC](https://img.shields.io/badge/PyMC-1F4E79?style=for-the-badge&logo=python&logoColor=white)
+![SALib](https://img.shields.io/badge/SALib-2E7D32?style=for-the-badge&logo=python&logoColor=white)
 
-**Areas:** Numerical Analysis · PDEs · FEM / DG methods · Scientific Machine Learning · Deep Learning · PINNs · Sensitivity & Uncertainty Quantification · Statistical Inference · Parallel Computing · Computational Fluid Dynamics · Computational Systems Biology
+**Areas:** Numerical Analysis · PDEs · FEM / DG methods · Scientific Machine Learning · Deep Learning · PINNs · Sensitivity & Uncertainty Quantification · Statistical Inference · Bayesian Inference / MCMC · Inverse Problems · Parallel Computing · Computational Fluid Dynamics · Computational Systems Biology
 
 ## 💻 Get in touch
 
 - [LinkedIn](https://www.linkedin.com/in/michele-baggi/)
-- michele1.baggi@mail.polimi.it
+- michelebaggi.baggi@gmail.com
 
 ## ⭐ About me
 
