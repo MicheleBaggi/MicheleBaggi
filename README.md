@@ -1,6 +1,6 @@
 # Hi there 👋
 
-I'm **Michele Baggi**, and I hold an **MSc in Mathematical Engineering** from Politecnico di Milano 🇮🇹, graduated **110/110**. My work centers on numerical methods, scientific machine learning, and the mathematical modeling of complex systems — turning rigorous theory into tools for real, meaningful problems.
+I'm **Michele Baggi**, and I hold an MSc in Mathematical Engineering from **Politecnico di Milano** 🇮🇹, graduated **110/110**. My work centers on numerical methods, scientific machine learning, and the mathematical modeling of complex systems — turning rigorous theory into tools for real, meaningful problems.
 
 > To me, mathematics is the language of nature, and my passion is putting its power to work on problems that matter, without ever losing the rigour they demand.
 
@@ -10,22 +10,22 @@ I'm **Michele Baggi**, and I hold an **MSc in Mathematical Engineering** from Po
 
 ## 🎓 Education
 
-- **MSc in Mathematical Engineering** (Computational Science and Computational Learning) at Politecnico di Milano 🇮🇹 — **110/110**, October 2026
-- **BSc in Mathematical Engineering** at Politecnico di Milano 🇮🇹
-- **Erasmus exchange** at the National Technical University of Athens (NTUA) 🇬🇷
-- **MSc thesis** in collaboration with **INRAE Paris-Saclay** 🇫🇷 — *Data Integration, Sensitivity Analysis and Inverse Problem Formulation for a Compartmental Colon Model*. Advisor: Prof. Paola F. Antonietti (MOX, Politecnico di Milano); co-advisors: Béatrice Laroche and Lorenzo Sala (MaIAGE, INRAE)
+- **MSc in Mathematical Engineering** (Computational Science and Computational Learning) at **Politecnico di Milano** 🇮🇹 — **110/110**, October 2026
+- **BSc in Mathematical Engineering** at **Politecnico di Milano** 🇮🇹
+- Erasmus exchange at the **National Technical University of Athens (NTUA)** 🇬🇷
+- MSc thesis in collaboration with **INRAE Paris-Saclay** 🇫🇷 — *Data Integration, Sensitivity Analysis and Inverse Problem Formulation for a Compartmental Colon Model*. Advisor: Prof. Paola F. Antonietti (MOX, Politecnico di Milano); co-advisors: Béatrice Laroche and Lorenzo Sala (MaIAGE, INRAE)
 
 ## 🔬 MSc Thesis — Gut Digital Twin @ INRAE
 
 **[Repository](https://github.com/MicheleBaggi/MSc-Thesis)** · [Full thesis](https://github.com/MicheleBaggi/MSc-Thesis/blob/main/docs/Baggi_MSc_Thesis.pdf) · [Executive summary](https://github.com/MicheleBaggi/MSc-Thesis/blob/main/docs/Baggi_MSc_Thesis_Executive_Summary.pdf) · [Defence slides](https://github.com/MicheleBaggi/MSc-Thesis/blob/main/docs/Baggi_MSc_Thesis_Presentation.pdf)
 
-The same diet can trigger very different metabolic responses from one person to another, and the inside of the colon cannot be observed directly. I connected a **mechanistic model of the colon** with **3613 faecal metagenomes**, tuning it sample by sample: a first step towards a per-patient **gut digital twin**.
+The same diet can trigger very different metabolic responses from one person to another, and the inside of the colon cannot be observed directly. I connected a mechanistic model of the colon with real patient data, tuning it to each individual: a first step towards a patient-specific **gut digital twin**.
 
-- ⚡ **Re-implemented** the compartmental model (106 nonlinear ODEs, 6 compartments) from Matlab/Simulink **in Python**, compiled with Numba for a **~7× speed-up**
-- 🧪 Linked the model to **3613 metagenomic samples** (four functional profiles), comparing compositions with the **Aitchison distance**
-- 🎯 Global **sensitivity analysis**: **Morris** screening (30 → 12 factors), then **Sobol'** indices, identifying the 4 catabolic fractions as the key parameters
+- ⚡ Re-implemented the **compartmental colon model** (106 nonlinear ODEs) from Matlab/Simulink in Python, compiled with Numba (~7× faster)
+- 🧪 Linked the model to **real patient data** (3613 metagenomic samples), comparing microbial compositions with the Aitchison distance
+- 🎯 **Global sensitivity analysis** (Morris, then Sobol'), narrowing 30 candidate parameters down to the 4 that matter most
 - 🧠 Trained a **neural-network surrogate** of the model (R² > 0.998)
-- 🔁 Solved the **inverse problem** with **Bayesian inference** (DEMetropolis(Z) MCMC, PyMC) on **all 3613 samples**, with no failures (2 h 46 min on 64 cores)
+- 🔁 Solved the **Bayesian inverse problem** (MCMC with PyMC) for every patient sample in the cohort, with no failures
 - 📉 The model reproduces each sample **an order of magnitude more closely** than subjects differ from each other
 
 ## 📌 Featured projects
